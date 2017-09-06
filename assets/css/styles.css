@@ -10739,7 +10739,7 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="time"]:di
 
 #header-book-bow {
   position: absolute;
-  right: 0;
+  right: 8px;
   top: 44px; }
   #header-book-bow i {
     display: none; }
@@ -10765,7 +10765,7 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="time"]:di
       display: block; } }
   @media (max-width: 440px) {
     #main-menu-handle {
-      right: 50px; } }
+      right: 60px; } }
   #main-menu-handle .fa-close {
     display: none; }
   #main-menu-handle.active .fa-bars {
@@ -11588,7 +11588,7 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="time"]:di
       position: absolute;
       left: 15px;
       width: calc(100% - 30px);
-      height: 80px;
+      height: 100%;
       border: 2px solid #d2bd7f;
       -webkit-transition: all 0.5s ease;
       -o-transition: all 0.5s ease;
@@ -15096,7 +15096,10 @@ margin-bottom: 20px;
 }
 .header-table {
   background-color: #d2bd7f;
-
+}
+.header-table h3 {
+  padding-bottom: 0!important;
+  margin-top: 10px;
 }
 .prog1 {
   width: 100%;
