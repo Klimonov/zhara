@@ -9899,7 +9899,18 @@ html[dir="rtl"] .select2-dropdown-open .select2-choice .select2-arrow {
   background-color: #FFFFFF;
   opacity: 0;
   filter: alpha(opacity=0); }
-
+.send-message {
+  position: fixed !important;
+  width: 400px;
+  height: 100px;
+  margin: -100px 0 0 -50px;
+  top: 50%;
+  left: calc(50% - 150px);
+  text-align: center;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+}
 .select2-drop-active {
   border: 2px solid #d2bd7f;
   border-top: none; }
@@ -10740,7 +10751,8 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="time"]:di
 #header-book-bow {
   position: absolute;
   right: 8px;
-  top: 44px; }
+  top: 44px; 
+cursor: pointer;}
   #header-book-bow i {
     display: none; }
   @media (max-width: 440px) {
@@ -14248,6 +14260,157 @@ body.post-details #blog-section {
       padding: 0; }
       @media (max-width: 992px) {
         #contact-section .b-sec #google-map {
+          height: 400px; } }
+.popup-form {
+  width: 300px;
+}
+.popup-close {
+  background: url(../img/close.png);
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  border: none;
+  padding: 0;
+  opacity: .6;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: .25s;
+}
+.popup-close:hover {
+  opacity: 1;
+}
+#contact-section1 {
+   visibility: hidden;
+  opacity: 0;
+  position: fixed;
+z-index: 999;
+top: calc(50% - 230px);
+  left: calc(50% - 172px);}
+  #contact-section1 .t-sec {
+    text-align: center; }
+    #contact-section1 .t-sec .content {
+      /*max-width: 800px;*/
+      line-height: 30px;
+      margin: 20px auto; }
+    #contact-section1 .t-sec .contact-info {
+      margin: 110px 0; }
+      @media (max-width: 767px) {
+        #contact-section1 .t-sec .contact-info {
+          margin: 70px 40px; } }
+      #contact-section1 .t-sec .contact-info .contact-inf-box {
+        display: inline-block;
+        font: 1.3em/1em "Playfair Display", Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        max-width: 300px;
+        vertical-align: top;
+        text-align: left;
+        margin-right: 40px; }
+        @media (max-width: 992px) {
+          #contact-section1 .t-sec .contact-info .contact-inf-box {
+            margin-bottom: 30px; } }
+        @media (max-width: 767px) {
+          #contact-section1 .t-sec .contact-info .contact-inf-box {
+            display: block;
+            max-width: none;
+            margin-right: 0; } }
+        @media (max-width: 600px) {
+          #contact-section1 .t-sec .contact-info .contact-inf-box {
+            text-align: center; } }
+        #contact-section1 .t-sec .contact-info .contact-inf-box:last-child {
+          margin-right: 0; }
+        #contact-section1 .t-sec .contact-info .contact-inf-box .icon-box {
+          width: 50px;
+          height: 50px;
+          margin-right: 20px;
+          line-height: 50px;
+          text-align: center;
+          color: #d2bd7f;
+          background: #151515;
+          position: relative;
+          font-size: 1.1em;
+          display: inline-block;
+          vertical-align: middle; }
+          @media (max-width: 600px) {
+            #contact-section1 .t-sec .contact-info .contact-inf-box .icon-box {
+              text-align: center;
+              margin-bottom: 20px; } }
+          #contact-section1 .t-sec .contact-info .contact-inf-box .icon-box:before, #contact-section1 .t-sec .contact-info .contact-inf-box .icon-box:after {
+            display: block;
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 15px;
+            border: 2px solid #d2bd7f; }
+          #contact-section1 .t-sec .contact-info .contact-inf-box .icon-box:before {
+            top: 0;
+            border-bottom: 0; }
+          #contact-section1 .t-sec .contact-info .contact-inf-box .icon-box:after {
+            bottom: 0;
+            border-top: 0; }
+        #contact-section1 .t-sec .contact-info .contact-inf-box .text {
+          display: inline-block;
+          vertical-align: middle;
+          max-width: 200px; }
+          @media (max-width: 767px) {
+            #contact-section1 .t-sec .contact-info .contact-inf-box .text {
+              max-width: none; } }
+          @media (max-width: 600px) {
+            #contact-section1 .t-sec .contact-info .contact-inf-box .text {
+              display: block; } }
+  #contact-section1 .b-sec {
+    background: #222222;
+    border: 2px solid #222222;
+    -webkit-box-shadow: 0 0 0 3px #d2bd7f, inset 0 0 0 1px #d2bd7f;
+    box-shadow: 0 0 0 3px #d2bd7f, inset 0 0 0 1px #d2bd7f;
+    padding: 1px;
+    display: table;
+    width: 100%;
+    margin: 50px 0; }
+    @media (max-width: 992px) {
+      #contact-section1 .b-sec {
+        display: block; } }
+    #contact-section1 .b-sec > div {
+      display: table-cell;
+      vertical-align: top;
+      float: none; }
+      @media (max-width: 992px) {
+        #contact-section1 .b-sec > div {
+          display: block; } }
+    #contact-section1 .b-sec .contact-form {
+      padding: 40px; }
+      @media (max-width: 440px) {
+        #contact-section1 .b-sec .contact-form {
+          padding: 20px; } }
+      #contact-section1 .b-sec .contact-form form .field-row {
+        margin-bottom: 15px; }
+        #contact-section1 .b-sec .contact-form form .field-row:last-child {
+          margin-bottom: 0; }
+      #contact-section1 .b-sec .contact-form form input {
+        width: 100%; }
+        #contact-section1 .b-sec .contact-form form input[type="submit"] {
+          background: #d2bd7f;
+          border: 1px solid #d2bd7f;
+          color: #222222;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+          padding: 10px 20px;
+          font-size: 1.2em; }
+          #contact-section1 .b-sec .contact-form form input[type="submit"]:hover {
+            background: #222222;
+            color: #d2bd7f; }
+      #contact-section1 .b-sec .contact-form form textarea {
+        width: 100%;
+        height: 230px; }
+    #contact-section1 .b-sec #google-map {
+      padding: 0; }
+      @media (max-width: 992px) {
+        #contact-section1 .b-sec #google-map {
           height: 400px; } }
 
 /**
