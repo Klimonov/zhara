@@ -50,7 +50,7 @@ jQuery(document).ready(function () {
 			addClassActive: !0,
 			autoPlay:       !0,
 			pagination:     !1,
-			navigationText: ['<span>Prev</span>', '<span>Next</span>']
+			navigationText: ['<span> </span>', '<span> </span>']
 		});
 	}
 

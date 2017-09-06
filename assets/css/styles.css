@@ -11630,7 +11630,7 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="time"]:di
         font: 30px/40px "gv", Arial, Helvetica, sans-serif; }
     #special-offers .package-box .price-box {
       background: #d2bd7f;
-      padding: 15px 0; }
+      padding: 0; }
       #special-offers .package-box .price-box > div {
         display: inline-block;
         vertical-align: middle; }
@@ -15059,11 +15059,11 @@ body.room-detials .room-desc .r-sec {
   bottom: 98px;
   color: white;
 }
+
 #scrollbar1 td {
+  border-bottom: 1px solid grey;
   text-align: left;
-}
-#scrollbar1 td {
-  border-bottom: 1px solid;
+
 }
 #scrollbar1 .noborder {
   border-bottom: 0px solid!important;
