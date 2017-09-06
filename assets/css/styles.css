@@ -11561,7 +11561,7 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="time"]:di
  * Special Offers Styles
  */
 #special-offers {
-  padding: 70px 0 110px; }
+  padding: 0px 0 110px; }
   #special-offers .packages-container {
     margin-top: 120px; }
   #special-offers .main-desc {
