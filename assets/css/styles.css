@@ -8,6 +8,12 @@
   position: relative;
   bottom: -65px;
 }
+@media (max-width: 650px) {
+.img-loggo{
+  bottom: -35px;
+  width: 78%;
+}
+}
 /* -----------------------------------------------------
 
 Project : Puna - Single Property Real estate Template
