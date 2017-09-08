@@ -30,7 +30,7 @@ $('#contact-section1').animate({'opacity':'1'}, 600).css({'visibility': 'visible
 
 
 
-
+ 
 $(".popup-close").on("click", function() { 
 $('#contact-section1').animate({'opacity': '0'}, 600, function () { 
 $(this).css('visibility', 'hidden') }); });
