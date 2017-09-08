@@ -1,8 +1,8 @@
 			jQuery(document).ready(function() {
 				
-			$(".popup-form").submit(function() {
-		$('.send-message').delay(300).css({'visibility': 'visible'}).animate({'opacity':'1'}, 1200);  
-		$('.send-message').delay(1200).animate({'opacity':'0'}, 1200, function () {   
+			$(".popup-form, .popup-form1").submit(function() {
+		$('.send-message').delay(300).css({'visibility': 'visible'}).animate({'opacity':'1'}, 1200);
+		$('.send-message').delay(1200).animate({'opacity':'0'}, 1200, function () {
 			$(this).css({'visibility': 'hidden'})  });
 		$('#contact-section1').animate({'opacity':'0'}, 600).css({'visibility': 'hidden'});
 
@@ -18,11 +18,8 @@
 		});
 		return false;
 		});
-	// 		$("#header-book-bow").on("click", function() {
- //     $('#contact-section1').animate({'opacity':'1'}, 600).css({'visibility': 'visible'})
- //   	});
-	// $(".popup-close").on("click", function() {
- //     $('#contact-section1').animate({'opacity':'0'}, 600).css({'visibility': 'hidden'}) });
+
+	
 
 $("#header-book-bow").on("click", function() {
 $('#contact-section1').animate({'opacity':'1'}, 600).css({'visibility': 'visible'})
@@ -34,7 +31,5 @@ $('#contact-section1').animate({'opacity':'1'}, 600).css({'visibility': 'visible
 $(".popup-close").on("click", function() { 
 $('#contact-section1').animate({'opacity': '0'}, 600, function () { 
 $(this).css('visibility', 'hidden') }); });
-
-
 
 });
